@@ -2,8 +2,8 @@ import net from 'net';
 
 const host = "127.0.0.1";
 
-const port = 3000;
-const SIM_LENGTH = 10;
+const port = 4000;
+const SIM_LENGTH = 20;
 
 try {
     const server = net.createServer((socket) => {
