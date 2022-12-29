@@ -1,6 +1,6 @@
 import net from "net"
 
-const port = 3000;
+const port = 4000;
 const host = "127.0.0.1";
 
 try {
@@ -12,5 +12,5 @@ try {
         console.log(data.toString());
     });
 } catch (error) {
-    console.log('Error establishing connection')
+    console.log('This is an error establishing connection')
 }
